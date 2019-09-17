@@ -1,5 +1,5 @@
-dist: trusty
-#language: java
+dist: xenial
+language: java
 addons:
   sonarcloud:
     organization: "shryne-github"
