@@ -5,7 +5,7 @@ addons:
     organization: "shryne-github"
     token:
       secure: "c951f5b986877f7cc10ba93ab691a7a11a2216fe"
-jdk: openjdk12
+jdk: openjdk11
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   # Yes, it has to be this long and inside one row...
