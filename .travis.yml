@@ -1,5 +1,5 @@
 dist: trusty
-language: java
+#language: java
 addons:
   sonarcloud:
     organization: "shryne-github"
@@ -14,7 +14,6 @@ matrix:
   allow_failures:
     - jdk: openjdk-ea
     - jdk: oraclejdk-ea
-sudo: required
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   # Yes, it has to be this long and inside one row...
